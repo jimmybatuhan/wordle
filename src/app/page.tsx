@@ -9,8 +9,7 @@ export default function Home() {
     const [attempts, setAttempts] = useState(0);
     const word = "brave";
 
-    const onSubmit = (guess: string) => {
-        console.log(guess);
+    const onSubmit = () => {
         setAttempts((c) => c + 1);
     };
 
